@@ -29,7 +29,6 @@ const Item =({data})=> {
       <div className="itemTitleBlock">
           <div className="itemTitle">{data.ticker}</div>
           <div className="itemPrice">{data.price}</div>
-          {!!prevData ? prevData.price : null}
       </div>
       <div className="itemContent">
         <div className="itemCP">{`${posRate}${data.change_percent}%`}</div>
