@@ -1,0 +1,38 @@
+.itemBlock{
+    display: flex;
+    width:30%;
+    flex-flow: row;
+    background-color: #fff;
+    border-radius: 0.5em;
+    padding: .5em;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.itemTitleBlock{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.itemContent{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+.itemTitle{
+    display: flex;
+    font-size: 2em;
+    font-weight: 700;
+    background-color: rgb(118, 221, 105);
+    border-radius: .3em;
+    padding: .1em .3em;
+}
+.itemPrice{
+    width: 100%;
+    font-size: 2em;
+}
+.itemCP{
+    font-size: 1.3em;
+}
+.itemChange{
+    color: rgb(105, 105, 105);
+    font-size: 1em;
+}

@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    height: auto;
+    width: 80%;
+    margin: 2% 0;
+    background-color: rgb(211, 211, 211);
+    border-radius: 1em;
+    padding: 1em;
+    gap: 8px;
+    overflow:auto;
+}
+.title{
+    font-size: 3em;
+    width: 100%;
+}
+.content{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    /* justify-content: center; */
+    justify-content: space-around;
+    gap: 8px;
+}
